@@ -6,7 +6,8 @@ public class Book
 
 public class Author
 {
-    public string Name { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
 }
 
 public class Query
@@ -17,7 +18,8 @@ public class Query
             Title = "C# in depth.",
             Author = new Author
             {
-                Name = "Jon Skeet"
+                FirstName = "Jon"
+                LastName = "Skeet"
             }
         };
 }
