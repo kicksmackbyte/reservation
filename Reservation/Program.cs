@@ -18,7 +18,7 @@ public class Query
             Title = "C# in depth.",
             Author = new Author
             {
-                FirstName = "Jon"
+                FirstName = "Jon",
                 LastName = "Skeet"
             }
         };
